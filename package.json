@@ -12,8 +12,6 @@
   "author": "Hainesnoids, SSPWXR",
   "license": "GPL-3.0",
   "dependencies": {
-    "express": "^4.21.2",
-    "fs": "^0.0.1-security",
-    "path": "^0.12.7"
+    "express": "^5.2.1"
   }
 }

@@ -1,8 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+  font-family: 'Roboto Condensed Light';
+  src:
+  url('/fonts/roboto-v1-2012/RobotoCondensed-Light-webfont.woff') format('woff')
+  url('/fonts/roboto-v1-2012/RobotoCondensed-Light-webfont.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed Regular';
+  src:
+  url('/fonts/roboto-v1-2012/RobotoCondensed-Regular-webfont.woff') format('woff')
+  url('/fonts/roboto-v1-2012/RobotoCondensed-Regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
 
 :root {
-  font-family: 'Roboto Condensed';
+  font-family: 'Roboto Condensed Light';
+  letter-spacing: -0.042em;
   color: var(--textColour2);
+  font-weight: 100;
   --primaryColour: #101218e1;
   --secondaryColour: #101218e1;
   --thirdColour: #242424b7;
